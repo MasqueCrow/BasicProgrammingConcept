@@ -8,14 +8,11 @@ public class DogGenetics {
 		String input = sc.nextLine();
 		sc.close();
 		
-		System.out.println("Well then, I have this highly reliable report on "
-							+ input + "'s prestigious background right here.");
+		System.out.println("Well then, I have this highly reliable report on " + input + "'s prestigious background right here.");
 		System.out.println();
 		System.out.println(input + " is:");
 		
-		String[] dogBreeds = { "St. Bernard", "Chihuahua", 
-							   "Dramatic RedNosed Asian Pug",
-							   "Common Cur", "King Doberman" };
+		String[] dogBreeds = { "St. Bernard", "Chihuahua", "Dramatic RedNosed Asian Pug", "Common Cur", "King Doberman" };
 		
 		int[] dna = new int[5];
 		int total = 100;
